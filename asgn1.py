@@ -47,11 +47,30 @@ app=Flask(__name__)
 
 msg1="Hello, world!"
 
-#
-# 
-# 
-# 
+#create a route so that when we launch app we dont get 404 error
+@app.route('/hello', methods=['GET', 'POST'])
+def helloURI():
+    if request.method=='POST':
+        return Response('This method is unsupported.',status=405)
+        
+    if request.method=='GET' and request.args.get('name'):
+        return Response("Hello, "+ request.args.get('name') + "!",status=200)
     
+    if request.method=='GET':
+        return Response('Hello, world!',status=200)
+        
+    return Response('This method is unsupported.', status=405)
+
+@app.route('/check', methods=['GET', 'POST'])
+def checkURI():
+    
+    if request.method=='GET':
+        return Response('All is well!',status=200)
+    
+    if request.method=='POST':
+        return Response('This method is unsupported.',status=405)
+    
+
     
 if __name__=="__main__":
     app.run(host='0.0.0.0', port=8081, debug=True)
