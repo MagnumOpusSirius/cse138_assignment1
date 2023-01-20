@@ -5,5 +5,5 @@ COPY . .
 
 RUN pip install -r flaskV.txt
 
-CMD ["python3", "-m", "flask","--app", "run", "--host=0.0.0.0", "--port=8081"]
+CMD ["flask","--app", "asgn1", "run", "--host=0.0.0.0", "--port=8081"]
 
