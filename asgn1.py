@@ -6,20 +6,35 @@ Source 2: https://www.youtube.com/watch?v=Q-BpqyOT3a8
 To set up flask and solve any errors:
 Source 3: https://www.youtube.com/watch?v=GHvj1ivQ7ms
 
+Resolve Docker Error
+Source 4: https://phoenixnap.com/kb/cannot-connect-to-the-docker-daemon-error
+
+What is Dockerfile?
+https://www.youtube.com/watch?v=LQjaJINkQXY&ab_channel=AutomationStepbyStep
+
+ResfulAPI NodeJS:
+https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
+
+Flask installation: 
+https://pythonhosted.org/Flask-JSON/#installation
+
+Running RESTAPI:
+https://towardsdev.com/run-your-first-restful-api-service-using-docker-b6d8801af255
+
+
+
 What I learned: 
 
 API:
-Think of like: a contract provided by one piece of software to another.
+1. Think of like: a contract provided by one piece of software to another.
 -> structured request and structured response
 
-----API IS A MESSENGER OR WAITER BETWEEN RUNNING SOFTWARE that sends some form of response/data to client
-REST is a web architecture that uses HTTP protocol.
-This server provides access to resources and client acn modify the resources using HTTP protocol.
-Texts (resources) are often represented usinng JSON
+2. API IS A MESSENGER OR WAITER BETWEEN RUNNING SOFTWARE that sends some form of response/data to client
+3. REST is a web architecture that uses HTTP protocol.
+4. This server provides access to resources and client acn modify the resources using HTTP protocol.
+5. Texts (resources) are often represented usinng JSON
 
-2 HTTP methods we will need to use are GET and PUT
-
-
+6. 2 HTTP methods we will need to use are GET and PUT
 
 
 Summary: 
